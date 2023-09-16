@@ -7,9 +7,9 @@ namespace Calcular.Controllers
     public class CalcularController : ControllerBase
     {
         [HttpPut("Somar")]
-        public Double Somar([FromBody] Calcular a)
+        public Double Somar(int valor1, int valor2)
         {
-            return a.valor1 + a.valor2;
+            return valor1 + valor2;
         }
 
         [HttpPut("Subtrair")]
@@ -17,5 +17,7 @@ namespace Calcular.Controllers
         {
             return b.valor1 - b.valor2;
         }
+
+        public CalcularController() { }
     }
 }
