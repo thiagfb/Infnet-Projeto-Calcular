@@ -11,7 +11,7 @@ namespace TestApi
 
             var result = controller.Somar(1, 4);
 
-            Assert.True(result != null);
+            Assert.True(result > 0);
         }
     }
 }
