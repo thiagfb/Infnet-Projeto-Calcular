@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>1bc4f1ca-570d-459f-88ab-79b6f04aa91b</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <ApplicationInsightsResourceId>/subscriptions/7e65a249-bd31-454a-9da9-13d58c149e0e/resourceGroups/infnet-projetoCalcular/providers/microsoft.insights/components/Calcular</ApplicationInsightsResourceId>
   </PropertyGroup>
 
   <ItemGroup>
